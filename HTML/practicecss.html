@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar{
+            background-color: red;
+            color: blanchedalmond;
+            border-radius: 30px;
+            margin-top: 12px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li {
+            float: left;
+            list-style: none;
+            font-size:20px;
+            padding-inline: 10px;
+            margin-top:10px;
+        }
+        .navbar li a{
+            float :left;
+            list-style: none;
+            text-decoration: none;
+            margin: 4px;
+           
+        }
+        .navbar li a:hover{
+            background-color: rgb(239, 161, 239);
+            color: rgb(53, 27, 53);
+            margin: 4px;
+            border: 2px solid black;
+        }
+        .search{
+            float: right;
+            color: blueviolet;
+            padding: 12px 45px;
+        }
+        .navbar input{
+            border: 2px solid blue;
+            border-radius: 4px;
+            padding: 4px;
+            width:220px;
+            margin-left: 30px;
+            outline:none ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#"> About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Read more </a></li>
+                <div class="search">
+                    <input type="text" id="" name=" search" placeholder="search here ">
+
+                </div>
+            </ul>
+
+        </nav>
+    </header>
+</body>
+</html>
